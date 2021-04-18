@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fastJetButton: UIButton!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         game = GameModel()
         
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
             print("Game is nil")
             return
         }
+        
         gameScore = checkedGame.score
     }
     
@@ -42,22 +44,23 @@ class ViewController: UIViewController {
             print("Game is nil!")
             return
         }
+        
         let response = unwrappedGame.play(move: move)
         gameScore = response.score
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
         switch sender {
-                case numberButton:
-                    play(move: .number)
-                case fastButton:
-                    play(move: .fast)
-                case jetButton:
-                    play(move: .jet)
-                case fastJetButton:
-                    play(move: .fastJet)
-                default:
-                    print("Invalid selection")
-                }
+            case numberButton:
+                play(move: .number)
+            case fastButton:
+                play(move: .fast)
+            case jetButton:
+                play(move: .jet)
+            case fastJetButton:
+                play(move: .fastJet)
+            default:
+                print("Invalid selection")
+            }
     }
 }
