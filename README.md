@@ -1,3 +1,3 @@
 # fastjet-game
 
-FastJet Game build using Swift. The purpose mostly was to practice Test Driven Development (inside-out) with Swift & UIKit
+FastJet Game built using Swift. The purpose mostly was to practice Test Driven Development (inside-out) with Swift & UIKit
