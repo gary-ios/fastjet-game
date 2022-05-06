@@ -109,15 +109,11 @@
 		B3E912C2262C8A4B0063FA38 /* FastJet-Game */ = {
 			isa = PBXGroup;
 			children = (
-				B36375B2262C906B00769D31 /* AppDelegate.swift */,
-				B36375B5262C906B00769D31 /* Assets.xcassets */,
-				B36375B7262C906B00769D31 /* LaunchScreen.storyboard */,
-				B36375B6262C906B00769D31 /* Main.storyboard */,
-				B36375B8262C906B00769D31 /* SceneDelegate.swift */,
-				B36375B3262C906B00769D31 /* ViewController.swift */,
-				B36375B1262C906B00769D31 /* FastJetModel.swift */,
-				B36375B4262C906B00769D31 /* GameModel.swift */,
-				B36375B0262C906A00769D31 /* Move.swift */,
+				B3F3DA3628254CAD004555DB /* Assets */,
+				B3F3DA3528254C9C004555DB /* Delegate */,
+				B3F3DA3428254C91004555DB /* Controller */,
+				B3F3DA3328254C7A004555DB /* View */,
+				B3F3DA3228254C66004555DB /* Model */,
 				B3E912D1262C8A4B0063FA38 /* Info.plist */,
 			);
 			path = "FastJet-Game";
@@ -126,9 +122,8 @@
 		B3E912D9262C8A4C0063FA38 /* FastJet-GameTests */ = {
 			isa = PBXGroup;
 			children = (
-				B36375F7262CA2B700769D31 /* ViewControllerUnitTests.swift */,
-				B36375C8262C907D00769D31 /* FastJetModelTests.swift */,
-				B36375EC262C990400769D31 /* GameModelTests.swift */,
+				B3F3DA3828254CD7004555DB /* ControllerTests */,
+				B3F3DA3728254CCD004555DB /* ModelTests */,
 				B3E912DC262C8A4C0063FA38 /* Info.plist */,
 			);
 			path = "FastJet-GameTests";
@@ -141,6 +136,67 @@
 				B3E912E7262C8A4C0063FA38 /* Info.plist */,
 			);
 			path = "FastJet-GameUITests";
+			sourceTree = "<group>";
+		};
+		B3F3DA3228254C66004555DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B36375B0262C906A00769D31 /* Move.swift */,
+				B36375B4262C906B00769D31 /* GameModel.swift */,
+				B36375B1262C906B00769D31 /* FastJetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3F3DA3328254C7A004555DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B36375B6262C906B00769D31 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3F3DA3428254C91004555DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B36375B3262C906B00769D31 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3F3DA3528254C9C004555DB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B36375B8262C906B00769D31 /* SceneDelegate.swift */,
+				B36375B2262C906B00769D31 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B3F3DA3628254CAD004555DB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B36375B5262C906B00769D31 /* Assets.xcassets */,
+				B36375B7262C906B00769D31 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B3F3DA3728254CCD004555DB /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36375C8262C907D00769D31 /* FastJetModelTests.swift */,
+				B36375EC262C990400769D31 /* GameModelTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		B3F3DA3828254CD7004555DB /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36375F7262CA2B700769D31 /* ViewControllerUnitTests.swift */,
+			);
+			path = ControllerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
