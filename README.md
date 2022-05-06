@@ -9,7 +9,9 @@ This is a take on the classic Fizzbuzz Kata using Swift.
 User must tap the correct button to increment the scoreboard which starts at 0.
 
 Fast = Number is divisible by 3 (e.g 6)
+
 Jet = Number is divisible by 5 (e.g 10)
+
 FastJet = Number is divisible by both 3 and 5 (e.g 15)
 
 If a number in not divisible by these numbers the user needs to tap the scoreboard button to increment.
